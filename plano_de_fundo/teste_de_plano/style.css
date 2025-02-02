@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+body{
+    background-size: cover;
+    background: black url(/plano_de_fundo/img/wallpaper002.jpg) center center no-repeat fixed;
+}
+
+main{
+    background-color: white;
+    max-width: 700px;
+    min-height: 300px;
+    padding: 10px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
