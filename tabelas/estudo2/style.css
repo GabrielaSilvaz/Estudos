@@ -6,11 +6,17 @@ body{
 }
 
 table{
-    border: 1px solid black;
-    width: 400px;
+    width: 600px;
+    border-collapse: collapse;
 }
 
-table tr{
+table td, th{
+    border: 1px solid black;
     width: 400px;
+    padding: 10px;
+}
+thead, tfoot{
+    background-color: gray;
+    color: white;
 }
 
