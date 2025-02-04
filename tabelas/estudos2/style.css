@@ -6,7 +6,7 @@ caption{
     font-size: 1.5em;
     padding: 10px;
     font-weight: bold;
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 body{
@@ -18,15 +18,21 @@ h1{
 }
 
 table{
-    width: 600px;
+    width: 500px;
     border-collapse: collapse;
     position: relative;
     margin: auto;
 }
 
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: darkgray;
+    border: 1px solid black;
+}
+
 td, th{
     border: 1px solid black;
-    width: 350px;
     padding: 10px;
 }
 
@@ -37,4 +43,8 @@ thead, tfoot{
 
 td.num{
     text-align: right;
+}
+
+tbody tr:nth-child(2n){
+    background-color: lightgray;
 }
