@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+
+
+capition{
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 8px;
+}
+
+table{
+     border-collapse: collapse;
+     width: 500px;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.col1{
+    background-color: chartreuse;
+}
