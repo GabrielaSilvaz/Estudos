@@ -11,3 +11,12 @@ iframe{
     margin: auto;
     display: block;
 }
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
